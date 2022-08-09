@@ -1,0 +1,15 @@
+{
+  "name": "banting-university",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MrRhuezzler/psg-step.git",
+  "author": "MrRhuezzler <anonymouspyro369@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass assets/scss/ assets/css/style.css -o assets/css/ --source-map assets/scss/style.css.map",
+    "sass:watch": "yarn sass --watch"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
