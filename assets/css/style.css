@@ -7742,4 +7742,63 @@ h1:after {
       #footer .footer-content .newsletter form .main-btn {
         width: 35%; } }
 
+/* advCommittee */
+
+.advCommittee {
+  margin: 0 auto;
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #e3f4fd 74%);
+  /* background: rgb(174,202,214);
+  background: -moz-linear-gradient(90deg, rgba(174,202,214,1) 0%, rgba(184,211,254,0.6337885495995272) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(174,202,214,1) 0%, rgba(184,211,254,0.6337885495995272) 100%);
+  background: linear-gradient(90deg, rgba(174,202,214,1) 0%, rgba(184,211,254,0.6337885495995272) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aecad6",endColorstr="#b8d3fe",GradientType=1); */
+  padding: 45px;
+  text-align: center;
+}
+
+.advCommittee h3,
+h5 {
+  color: #082465;
+}
+
+.advCommittee .name-card {
+  border-radius: 10px;
+  text-align: center;
+  /* background-color: #2166cc; */
+  background-color: #6465af;
+  background-image: linear-gradient(315deg, #6465af 0%, #2c69d1 74%);
+  padding: 20px 20px;
+  margin: 25px 25px;
+  /* color: #081e65af; */
+  color: white;
+  transition: all 0.3s;
+}
+
+.advCommittee .name-card.indiv {
+  width: 400px;
+}
+.advCommittee .name-card.categ {
+  width: 1200px;
+}
+
+.advCommittee .name-card span {
+  font-size: 1.3rem;
+  font-weight: 600;
+  /* color: #082465; */
+}
+.advCommittee .name-card.categ p {
+  max-width: 250px;
+  margin: 10px 5px 20px 5px;
+}
+
+.advCommittee .name-card:hover.name-card h4:before {
+  transform: scaleX(1);
+  visibility: visible;
+}
+
+.advCommittee .name-card {
+  box-shadow: 0 5px 8px rgba(224, 182, 182, 0.388);
+}        
+
 /*# sourceMappingURL=../scss/style.css.map */
