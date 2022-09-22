@@ -1,424 +1,550 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-      <!-- Fab Icon -->
-      <link rel="shortcut icon" type="image/png" href="assets/img/logos/favicon.png"/>
+    <!-- Fab Icon -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/img/logos/favicon.png"
+    />
     <!-- Fonts Awesome Icons -->
-    <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css" />
     <!-- Flaticon -->
-    <link rel="stylesheet" href="assets/css/vander/flaticon.css">
+    <link rel="stylesheet" href="assets/css/vander/flaticon.css" />
     <!-- Bootstrap Link -->
-    <link rel="stylesheet" href="assets/css/vander/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vander/bootstrap.min.css" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-  <title>Banting University</title>
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Banting University</title>
+  </head>
 
-<body>
+  <body>
     <!-- Navbar Section -->
-    <nav class="navbar-style-2 container-fluid d-none d-sm-block ">
-        <div class="row">
-            <div class="col-12 nav-container">
-                <!-- Main Nav Start -->
-                <div class="main-nav">
-                    <nav class="navbar navbar-expand-lg">
-                        
-
-                        <!-- For Tablet Screen -> Start -->
-                        <div class="menu-toggler d-block d-xl-none">
-                            <div class="hamburger-menu">
-                                <a href="#">
-                                    <span>Menu</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="nav-menu-items">
-                            <ul class="nav-items">
-                                <li class="menu-item-has-children">
-                                    <a href="#" class="current-menu-item">About</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html#about-ss">PSG Step</a></li>
-                                        <li><a href="index.html#dst-ss">DST Nidhi</a></li>
-                                        <li><a href="index.html#accelerator-ss">Accelerator</a></li>
-                                        <li><a href="index.html#partners-ss">Partners</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="accelerator.html">Accelerator</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="accelerator.html#About" class="current-menu-item">About</a></li>
-                                        <li><a href="accelerator.html#Curriculum">Curriculum</a></li>
-                                        <li><a href="accelerator.html#Calender">Calender</a></li>
-                                        <li><a href="accelerator.html#Demo Day">Demo Day</a></li>
-                                        <li><a href="accelerator.html#Location">Location</a></li>
-                                        <li><a href="accelerator.html#Cost and Benefits">Cost & Benefits</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="apply.html">Apply</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="apply.html#Eligibility">Eligibility</a></li>
-                                        <li><a href="apply.html#Selection">Selection</a></li>
-                                        <li><a href="apply.html#Process">Process</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-no-child">
-                                    <a href="faq.html">FAQs</a>
-                                </li>
-                                <li class="menu-item-has-no-child">
-                                    <a href="contact.html">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- For Tablet Screen -> End -->
-
-                        <div class="collapse navbar-collapse py-5 pl-5 fixed-top navbar-dark bg-dark" style="height: 50px;" id="navbarNav">
-                            <ul class="navbar-nav"><a class="navbar-brand" href="index.html">
-                                <img src="assets/img/logos/logo_3.png" alt="Nav Logo">
-                            </a>
-                                <li class="menu-item-has-children">
-                                    <a href="index.html" >About</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html#about-ss">PSG Step</a></li>
-                                        <li><a href="index.html#dst-ss">DST Nidhi</a></li>
-                                        <li><a href="index.html#accelerator-ss">Accelerator</a></li>
-                                        <li><a href="index.html#partners-ss">Partners</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="accelerator.html">Accelerator</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="accelerator.html#About" class="current-menu-item">About</a></li>
-                                        <li><a href="accelerator.html#Curriculum">Curriculum</a></li>
-                                        <li><a href="accelerator.html#Calender">Calender</a></li>
-                                        <li><a href="accelerator.html#Demo Day">Demo Day</a></li>
-                                        <li><a href="accelerator.html#Location">Location</a></li>
-                                        <li><a href="accelerator.html#Cost and Benefits">Cost & Benefits</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="apply.html" >Apply</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="apply.html#Eligibility">Eligibility</a></li>
-                                        <li><a href="apply.html#Selection">Selection</a></li>
-                                        <li><a href="apply.html#Process">Process</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-no-child">
-                                    <a href="faq.html" class="current-menu-item">FAQs</a>
-                                </li>
-                                <li class="menu-item-has-no-child">
-                                    <a href="contact.html">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+    <nav class="navbar-style-2 container-fluid d-none d-sm-block">
+      <div class="row">
+        <div class="col-12 nav-container">
+          <!-- Main Nav Start -->
+          <div class="main-nav">
+            <nav class="navbar navbar-expand-lg">
+              <!-- For Tablet Screen -> Start -->
+              <div class="menu-toggler d-block d-xl-none">
+                <div class="hamburger-menu">
+                  <a href="#">
+                    <span>Menu</span>
+                  </a>
                 </div>
-            </div>
+              </div>
+              <div class="nav-menu-items">
+                <ul class="nav-items">
+                  <li class="menu-item-has-children">
+                    <a href="#" class="current-menu-item">About</a>
+                    <ul class="sub-menu">
+                      <li><a href="index.html#about-ss">About DST</a></li>
+                      <li><a href="index.html#dst-ss">DST Nidhi</a></li>
+                      <li>
+                        <a href="index.html#accelerator-ss">Accelerator</a>
+                      </li>
+                      <li><a href="index.html#partners-ss">Partners</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="accelerator.html">Accelerator</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a
+                          href="accelerator.html#About"
+                          class="current-menu-item"
+                          >About</a
+                        >
+                      </li>
+                      <li>
+                        <a href="accelerator.html#Curriculum">Curriculum</a>
+                      </li>
+                      <li><a href="accelerator.html#Calender">Calender</a></li>
+                      <li><a href="accelerator.html#Demo Day">Demo Day</a></li>
+                      <li><a href="accelerator.html#Location">Location</a></li>
+                      <li>
+                        <a href="accelerator.html#Cost and Benefits"
+                          >Cost & Benefits</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="apply.html">Apply</a>
+                    <ul class="sub-menu">
+                      <li><a href="apply.html#Eligibility">Eligibility</a></li>
+                      <li><a href="apply.html#Selection">Selection</a></li>
+                      <li><a href="apply.html#Process">Process</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-no-child">
+                    <a href="faq.html">FAQs</a>
+                  </li>
+                  <li class="menu-item-has-no-child">
+                    <a href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- For Tablet Screen -> End -->
+
+              <div
+                class="collapse navbar-collapse py-5 pl-5 fixed-top navbar-dark bg-dark"
+                style="height: 50px"
+                id="navbarNav"
+              >
+                <ul class="navbar-nav">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logos/logo_3.png" alt="Nav Logo" />
+                  </a>
+                  <li class="menu-item-has-children">
+                    <a href="index.html">About</a>
+                    <ul class="sub-menu">
+                      <li><a href="index.html#about-ss">About DST</a></li>
+                      <li><a href="index.html#dst-ss">DST Nidhi</a></li>
+                      <li>
+                        <a href="index.html#accelerator-ss">Accelerator</a>
+                      </li>
+                      <li><a href="index.html#partners-ss">Partners</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="accelerator.html">Accelerator</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a
+                          href="accelerator.html#About"
+                          class="current-menu-item"
+                          >About</a
+                        >
+                      </li>
+                      <li>
+                        <a href="accelerator.html#Curriculum">Curriculum</a>
+                      </li>
+                      <li><a href="accelerator.html#Calender">Calender</a></li>
+                      <li><a href="accelerator.html#Demo Day">Demo Day</a></li>
+                      <li><a href="accelerator.html#Location">Location</a></li>
+                      <li>
+                        <a href="accelerator.html#Cost and Benefits"
+                          >Cost & Benefits</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="apply.html">Apply</a>
+                    <ul class="sub-menu">
+                      <li><a href="apply.html#Eligibility">Eligibility</a></li>
+                      <li><a href="apply.html#Selection">Selection</a></li>
+                      <li><a href="apply.html#Process">Process</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-no-child">
+                    <a href="faq.html" class="current-menu-item">FAQs</a>
+                  </li>
+                  <li class="menu-item-has-no-child">
+                    <a href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
+      </div>
     </nav>
 
     <!-- Navbar for mobile screen -->
     <div class="navbar-mobile-2 sticky-bar d-block d-sm-none">
-        <div class="container-fluid">
-            <div class="menu-toggler">
-                <div class="hamburger-menu">
-                    <a href="#">
-                        <span>Menu</span>
-                    </a>
-                </div>
-            </div>
-            
+      <div class="container-fluid">
+        <div class="menu-toggler">
+          <div class="hamburger-menu">
+            <a href="#">
+              <span>Menu</span>
+            </a>
+          </div>
         </div>
+      </div>
 
-        <div class="nav-menu-items">
-            <ul class="nav-items">
-                <li class="menu-item-has-children">
-                    <a href="#" class="current-menu-item">About</a>
-                    <ul class="sub-menu">
-                        <li><a href="index.html#about-ss">PSG Step</a></li>
-                        <li><a href="index.html#dst-ss">DST Nidhi</a></li>
-                        <li><a href="index.html#accelerator-ss">Accelerator</a></li>
-                        <li><a href="index.html#partners-ss">Partners</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children">
-                    <a href="accelerator.html">Accelerator</a>
-                    <ul class="sub-menu">
-                        <li><a href="accelerator.html#About" class="current-menu-item">About</a></li>
-                      <li><a href="accelerator.html#Curriculum">Curriculum</a></li>
-                      <li><a href="accelerator.html#Calender">Calender</a></li>
-                      <li><a href="accelerator.html#Demo Day">Demo Day</a></li>
-                      <li><a href="accelerator.html#Location">Location</a></li>
-                      <li><a href="accelerator.html#Cost and Benefits">Cost & Benefits</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-children">
-                    <a href="apply.html">Apply</a>
-                    <ul class="sub-menu">
-                        <li><a href="apply.html#Eligibility">Eligibility</a></li>
-                        <li><a href="apply.html#Selection">Selection</a></li>
-                        <li><a href="apply.html#Process">Process</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item-has-no-child">
-                    <a href="faq.html">FAQs</a>
-                </li>
-                <li class="menu-item-has-no-child">
-                    <a href="contact.html">Contact Us</a>
-                </li>
+      <div class="nav-menu-items">
+        <ul class="nav-items">
+          <li class="menu-item-has-children">
+            <a href="#" class="current-menu-item">About</a>
+            <ul class="sub-menu">
+              <li><a href="index.html#about-ss">About DST</a></li>
+              <li><a href="index.html#dst-ss">DST Nidhi</a></li>
+              <li><a href="index.html#accelerator-ss">Accelerator</a></li>
+              <li><a href="index.html#partners-ss">Partners</a></li>
             </ul>
-        </div>
-    </div>
-
-
-  <!-- Breadcrub -->
-  <!-- Breadcrumb -->
-  <div class="breadcrub-style-1 section">
-    <div class="row d-flex align-items-center">
-      <div class="col-12 col-lg-8 bg-img"
-        style="background-image: url(https://images.template.net/wp-content/uploads/2014/11/Natural-Facebook-Cover-Photo.jpg)"></div>
-      <div class="hide-md-and-down col-4 bg-color"></div>
-    </div>
-    <div class="heading text-center">
-      <h1>FAQ</h1>
-      <div class="breadcrub-style">
-        <a href="#">Home</a>
-        <span class="arrow"> > </span>
-        <a href="#" class="active">FAQ</a>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="accelerator.html">Accelerator</a>
+            <ul class="sub-menu">
+              <li>
+                <a href="accelerator.html#About" class="current-menu-item"
+                  >About</a
+                >
+              </li>
+              <li><a href="accelerator.html#Curriculum">Curriculum</a></li>
+              <li><a href="accelerator.html#Calender">Calender</a></li>
+              <li><a href="accelerator.html#Demo Day">Demo Day</a></li>
+              <li><a href="accelerator.html#Location">Location</a></li>
+              <li>
+                <a href="accelerator.html#Cost and Benefits">Cost & Benefits</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="apply.html">Apply</a>
+            <ul class="sub-menu">
+              <li><a href="apply.html#Eligibility">Eligibility</a></li>
+              <li><a href="apply.html#Selection">Selection</a></li>
+              <li><a href="apply.html#Process">Process</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-no-child">
+            <a href="faq.html">FAQs</a>
+          </li>
+          <li class="menu-item-has-no-child">
+            <a href="contact.html">Contact Us</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
 
-  <!-- Questions -->
-  
-  <div class="questions-section section">
-    <div class="container-fluid">
+    <!-- Breadcrub -->
+    <!-- Breadcrumb -->
+    <div class="breadcrub-style-1 section">
+      <div class="row d-flex align-items-center">
+        <div
+          class="col-12 col-lg-8 bg-img"
+          style="
+            background-image: url(https://images.template.net/wp-content/uploads/2014/11/Natural-Facebook-Cover-Photo.jpg);
+          "
+        ></div>
+        <div class="hide-md-and-down col-4 bg-color"></div>
+      </div>
+      <div class="heading text-center">
+        <h1>FAQ</h1>
+        <div class="breadcrub-style">
+          <a href="#">Home</a>
+          <span class="arrow"> > </span>
+          <a href="#" class="active">FAQ</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Questions -->
+
+    <div class="questions-section section">
+      <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-7 col-lg-6 content">
-                <h2>Miscellaneous Questions</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus augue nibh, at ullamcorper
-                    orci
-                    ullamcorper ut. Integer vehicula iaculis risus, non consequat eros tincidunt ac. Morbi a aliquam
-                    tortor. Nam
-                    convallis vestibulum nisi, sit amet fermentum libero scelerisque id. Integer iaculis mollis
-                    justo, sed
-                    interdum ligula auctord leo. Morbi lorem justo, porta eu odio a, tincidunt pretium dui. In ac
-                    fringilla
-                    arcu.</p>
-                <div class="accordion-wrapper margin-top-40">
-                    <div id="accordion">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
-                                <h5 class="mb-0">
-                                    <a role="button" data-toggle="collapse" data-target="#collapseOne"
-                                        aria-expanded="true" aria-controls="collapseOne">
-                                        Will we get funding for our startup?
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    Start-ups will get the opportunity to pitch to investors. Techcelerator
-does not provide any funding.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                        data-target="#collapseTwo" aria-expanded="false"
-                                        aria-controls="collapseTwo">
-                                        How is the program structured?
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    You can check the structure here (link to curriculum)
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingThree">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                        data-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        What is the time commitment?
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    It is 12 week program
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingFour">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                        data-target="#collapseFour" aria-expanded="false"
-                                        aria-controls="collapseFour">
-                                        How do I apply?
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    You can apply here (link to application)
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header" id="headingFive">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                        data-target="#collapseFive" aria-expanded="false"
-                                        aria-controls="collapseFive">
-                                        What is the program fee?
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    A partially refundable deposit of Rs.25,000 is to be paid at the start
-and Rs.20,000 will be refunded at completion of the program.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingSix">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                        data-target="#collapseSix" aria-expanded="false"
-                                        aria-controls="collapseSix">
-                                        Who is eligible to participate?
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    A team with ready to a ready to market product in the fields of
-                                    Artificial Intelligence, Machine Learning, Electronics and Automation.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingSix">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                        data-target="#collapseSeven" aria-expanded="false"
-                                        aria-controls="collapseSeven">
-                                        Will I need to travel?
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    Yes, the program will take place in Coimbatore, Tamil Nadu
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingSix">
-                                <h5 class="mb-0">
-                                    <a class="collapsed" role="button" data-toggle="collapse"
-                                        data-target="#collapseEight" aria-expanded="false"
-                                        aria-controls="collapseEight">
-                                        Will there be a demo day?
-                                    </a>
-                                </h5>
-                            </div>
-                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    Yes
-                                </div>
-                            </div>
-                        </div>
-                        
-      
+          <div class="col-12 col-md-7 col-lg-6 content">
+            <h2>Miscellaneous Questions</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              rhoncus augue nibh, at ullamcorper orci ullamcorper ut. Integer
+              vehicula iaculis risus, non consequat eros tincidunt ac. Morbi a
+              aliquam tortor. Nam convallis vestibulum nisi, sit amet fermentum
+              libero scelerisque id. Integer iaculis mollis justo, sed interdum
+              ligula auctord leo. Morbi lorem justo, porta eu odio a, tincidunt
+              pretium dui. In ac fringilla arcu.
+            </p>
+            <div class="accordion-wrapper margin-top-40">
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <a
+                        role="button"
+                        data-toggle="collapse"
+                        data-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Will we get funding for our startup?
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseOne"
+                    class="collapse show"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      Start-ups will get the opportunity to pitch to investors.
+                      Techcelerator does not provide any funding.
                     </div>
+                  </div>
                 </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        data-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        How is the program structured?
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseTwo"
+                    class="collapse"
+                    aria-labelledby="headingTwo"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      You can check the structure here (link to curriculum)
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        data-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        What is the time commitment?
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseThree"
+                    class="collapse"
+                    aria-labelledby="headingThree"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">It is 12 week program</div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        data-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                      >
+                        How do I apply?
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseFour"
+                    class="collapse"
+                    aria-labelledby="headingFour"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      You can apply here (link to application)
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        data-target="#collapseFive"
+                        aria-expanded="false"
+                        aria-controls="collapseFive"
+                      >
+                        What is the program fee?
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseFive"
+                    class="collapse"
+                    aria-labelledby="headingFive"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      A partially refundable deposit of Rs.25,000 is to be paid
+                      at the start and Rs.20,000 will be refunded at completion
+                      of the program.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        data-target="#collapseSix"
+                        aria-expanded="false"
+                        aria-controls="collapseSix"
+                      >
+                        Who is eligible to participate?
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseSix"
+                    class="collapse"
+                    aria-labelledby="headingSix"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      A team with ready to a ready to market product in the
+                      fields of Artificial Intelligence, Machine Learning,
+                      Electronics and Automation.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        data-target="#collapseSeven"
+                        aria-expanded="false"
+                        aria-controls="collapseSeven"
+                      >
+                        Will I need to travel?
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseSix"
+                    class="collapse"
+                    aria-labelledby="headingSix"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      Yes, the program will take place in Coimbatore, Tamil Nadu
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                      <a
+                        class="collapsed"
+                        role="button"
+                        data-toggle="collapse"
+                        data-target="#collapseEight"
+                        aria-expanded="false"
+                        aria-controls="collapseEight"
+                      >
+                        Will there be a demo day?
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapseSix"
+                    class="collapse"
+                    aria-labelledby="headingSix"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">Yes</div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <!-- <div class="d-none d-md-block col-md-5 col-lg-6 side-media" style="margin-top:200px"></div> -->
-        </div>
-    </div>
-</div>
-
-  <!-- Question Form -->
-  <div class="question-form-section section">
-    <div class="container text-center">
-      <img src="assets/img/University/FAQ/discuss-issue.png" alt="discuss-issue">
-      <h2>You have another question for us?</h2>
-      <h5>Leave your message below</h5>
-
-      <form class="text-left form-style-2">
-        <div class="form-row">
-          <div class="form-group col-12 col-lg-6 required">
-            <label for="email">Email address</label>
-            <input type="email" id="email" class="form-control" name="email" placeholder="johnLP12@gmail.com" />
           </div>
-          <div class="form-group col-12 col-lg-6">
-            <label for="message">Message</label>
-            <input type="text" id="message" class="form-control" name="name"
-              placeholder="Hello, I wanted to know about this particular course called..." />
-            <span class="small-text">120 characters left</span>
-          </div>
+          <!-- <div class="d-none d-md-block col-md-5 col-lg-6 side-media" style="margin-top:200px"></div> -->
         </div>
-        <button class="main-btn" type="submit">Post comment</button>
-      </form>
+      </div>
     </div>
-  </div>
 
-  <!-- Footer Section -->
-  <footer class="footer-section">
-    <div class="copyright">
+    <!-- Question Form -->
+    <div class="question-form-section section">
+      <div class="container text-center">
+        <img
+          src="assets/img/University/FAQ/discuss-issue.png"
+          alt="discuss-issue"
+        />
+        <h2>You have another question for us?</h2>
+        <h5>Leave your message below</h5>
+
+        <form class="text-left form-style-2">
+          <div class="form-row">
+            <div class="form-group col-12 col-lg-6 required">
+              <label for="email">Email address</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                name="email"
+                placeholder="johnLP12@gmail.com"
+              />
+            </div>
+            <div class="form-group col-12 col-lg-6">
+              <label for="message">Message</label>
+              <input
+                type="text"
+                id="message"
+                class="form-control"
+                name="name"
+                placeholder="Hello, I wanted to know about this particular course called..."
+              />
+              <span class="small-text">120 characters left</span>
+            </div>
+          </div>
+          <button class="main-btn" type="submit">Post comment</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <div class="copyright">
         <div class="container-fluid">
-            <p>© PSG Step. All rights reserved.</p>
+          <p>© PSG Step. All rights reserved.</p>
         </div>
         <!-- Scroll Top Start -->
-        <a id="scroll-top" class="d-flex justify-content-center align-items-center">
-            <i class="flaticon-up-arrow"></i>
+        <a
+          id="scroll-top"
+          class="d-flex justify-content-center align-items-center"
+        >
+          <i class="flaticon-up-arrow"></i>
         </a>
-    </div>
-</footer>
+      </div>
+    </footer>
 
-  <div class="preloader" id="preloader">
-    <div class="preloader-inner">
+    <div class="preloader" id="preloader">
+      <div class="preloader-inner">
         <div class="spinner">
-            <div class="dot1"></div>
-            <div class="dot2"></div>
+          <div class="dot1"></div>
+          <div class="dot2"></div>
         </div>
+      </div>
     </div>
-</div>
 
-  <!-- JQuery Link -->
-  <script src="assets/js/vander/jquery-3.4.1.min.js"></script>
-  <script src="assets/js/vander/jquery-migrate-1.4.1.min.js"></script>
-  <!-- Popper Js -->
-  <script src="assets/js/vander/popper.min.js"></script>
-  <script src="assets/js/vander/bootstrap.min.js"></script>
-  <!-- Custom Script -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/slider.js"></script>
-  <script src="assets/js/toggler.js"></script>
-</body>
-
+    <!-- JQuery Link -->
+    <script src="assets/js/vander/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/vander/jquery-migrate-1.4.1.min.js"></script>
+    <!-- Popper Js -->
+    <script src="assets/js/vander/popper.min.js"></script>
+    <script src="assets/js/vander/bootstrap.min.js"></script>
+    <!-- Custom Script -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/toggler.js"></script>
+  </body>
 </html>
